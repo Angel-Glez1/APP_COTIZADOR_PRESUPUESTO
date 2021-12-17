@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
 import CerrarBtn from '../../img/cerrar.svg';
 import Mensaje from '../Mensaje';
 
@@ -112,7 +111,6 @@ export const Modal = ({ setModal, animarModal, setAnimarModal, guardarGasto, gas
                     <select
                         name="categoria"
                         id="categoria"
-                        name="categoria"
                         onChange={handleChange}
                         value={categoria}
                     >
